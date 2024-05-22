@@ -3,6 +3,9 @@
 double _add(double a, double b) {
 	return a+b;
 }
+double _car(double a) {
+	return a*a;
+}
 
 double _sub(double a, double b) {
 	return a-b;
