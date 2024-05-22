@@ -14,6 +14,10 @@ int main(int argc, char *argv[]){
 		r = _add(atof(a), atof(b));
 		printf("%lf",r);
 	}
+	else if (strcmp(op, "car") == 0) {
+		r = _sub(atof(a));
+		printf("%lf",r);
+	}
 	else if (strcmp(op, "sub") == 0) {
 		r = _sub(atof(a), atof(b));
 		printf("%lf",r);
